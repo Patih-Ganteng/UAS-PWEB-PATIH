@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - Portofolio Punk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+        <source src="foto/ini 2.mp4" type="video/mp4">
+        Browser Lu Gembel.
+    </video>
+    
+    <!-- Grunge Overlay -->
+    <div class="grunge-overlay"></div>
+    
+    <!-- Sticker Decorations -->
+    <img src="foto/002.png" class="sticker" style="bottom: 50px; right: 10px;transform: scale(1.4);">
+    <img src="foto/001.png" class="sticker" style="bottom: 34px; left: 1px;transform: scale(1.8);">
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo logo-img">
+              <img src="foto/Logo.png" alt="Logo Portofolio">
+            </a>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="project.html">KARYA & PROJECT</a></li>
+                <li><a href="media.html">MEDIA</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Media Section -->
+    <section id="media" class="section">
+        <div class="container">
+            <h1 class="section-title">MEDIA</h1>
+            <p class="section-subtitle">Kumpulan video, audio, gambar, dan dokumen kreatif yang gue buat. Nonton, dengerin, dan download sepuasnya!</p>
+            
+            <!-- Video Gallery -->
+            <div class="media-section">
+                <h2 class="media-title"><i class="fas fa-video"></i> VIDEO GAje</h2>
+                <div class="media-grid">
+                    <div class="media-item">
+                        <div class="media-thumbnail">
+                            <video controls poster="foto/">
+                                <source src="foto/Petasan Tahun Baru.mp4" type="video/mp4">
+                                Browser lu gak support video HTML5.
+                            </video>
+                        </div>
+                        <div class="media-info">
+                            <h3>Petasan Tahun Baru</h3>
+                            <p>Selamat Tahun Baru</p>
+                            <a href="foto/Petasan Tahun Baru.mp4" class="btn-media" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="media-item">
+                        <div class="media-thumbnail">
+                            <div class="video-placeholder">
+                                <i class="fas fa-film"></i>
+                                <p>Behind The Scenes</p>
+                            </div>
+                        </div>
+                        <div class="media-info">
+                            <h3>Patih Jadi Autis</h3>
+                            <p>Proses kreatif di studio. Durasi: 5:20</p>
+                            <div class="media-meta">
+                                <span><i class="fas fa-calendar"></i> 10 Februari 2026</span>
+                                <span><i class="fas fa-download"></i> 210 MB</span>
+                            </div>
+                            <a href="#" class="btn-media disabled">
+                                <i class="fas fa-clock"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Audio Gallery -->
+            <div class="media-section">
+                <h2 class="media-title"><i class="fas fa-music"></i> LAGU APA AJA</h2>
+                <div class="media-grid">
+                    <div class="media-item audio-item">
+                        <div class="audio-player">
+                            <div class="audio-cover">
+                                <img src="foto/Al-Khayin.jpg" alt="Audio Cover">
+                            </div>
+                            <div class="audio-controls">
+                                <h3>Al-Khayin</h3>
+                                <p>Original Track • 2:42</p>
+                                <audio controls>
+                                    <source src="foto/Al-Khayin.mp3" type="audio/mpeg">
+                                    Browser lu gak support audio HTML5.
+                                </audio>
+                                <div class="audio-meta">
+                                    <span><i class="fas fa-headphones"></i> 193.329 plays</span>
+                                    <a href="foto/Al-Khayin.mp3" class="btn-audio" download>
+                                        <i class="fas fa-download"></i> MP3
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="media-item audio-item">
+                        <div class="audio-player">
+                            <div class="audio-cover">
+                                <img src="foto/Gadis Kebaya Merah.jpg" alt="Audio Cover">
+                            </div>
+                            <div class="audio-controls">
+                                <h3>Urban Chaos</h3>
+                                <p>Experimental Mix • 2:46</p>
+                                <audio controls>
+                                    <source src="foto/Gadis Kebaya Merah.mp3" type="audio/mpeg">
+                                    Browser lu gak support audio HTML5.
+                                </audio>
+                                <div class="audio-meta">
+                                    <span><i class="fas fa-headphones"></i> 8.434 plays</span>
+                                    <a href="foto/Gadis Kebaya Merah.mp3" class="btn-audio" download>
+                                        <i class="fas fa-download"></i> MP3
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Image Gallery -->
+            <div class="media-section">
+                <h2 class="media-title"><i class="fas fa-images"></i> GALLERY</h2>
+                <div class="image-grid">
+                    <div class="image-item">
+                        <img src="foto/1.jpg" alt="Artwork 1">
+                        <div class="image-overlay">
+                            <h4>Sketsa Wukong</h4>
+                            <a href="foto/1.jpg" download class="btn-download-img">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="image-item">
+                        <img src="foto/2.jpg" alt="Artwork 2">
+                        <div class="image-overlay">
+                            <h4>Orang Korea euy</h4>
+                            <a href="foto/2.jpg" download class="btn-download-img">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="image-item">
+                        <img src="foto/3.jpg" alt="Artwork 3">
+                        <div class="image-overlay">
+                            <h4>gabut banget</h4>
+                            <a href="foto/3.jpg" download class="btn-download-img">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Documents -->
+            <div class="media-section">
+                <h2 class="media-title"><i class="fas fa-file-alt"></i> DOCUMENTS & RESOURCES</h2>
+                <div class="documents-grid">
+                    <div class="doc-item">
+                        <div class="doc-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="doc-info">
+                            <h3>Portfolio Catalog 2024</h3>
+                            <p>PDF • 48 halaman • 12.4 MB</p>
+                            <p>Katalog lengkap karya dan project gue tahun 2024.</p>
+                        </div>
+                        <a href="media/documents/portfolio-catalog.pdf" class="btn-doc" download>
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <div class="doc-icon">
+                            <i class="fas fa-file-word"></i>
+                        </div>
+                        <div class="doc-info">
+                            <h3>Creative Process Documentation</h3>
+                            <p>DOCX • 24 halaman • 8.7 MB</p>
+                            <p>Dokumentasi proses kreatif dari ide sampai eksekusi.</p>
+                        </div>
+                        <a href="media/documents/creative-process.docx" class="btn-doc" download>
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                    
+                    <div class="doc-item">
+                        <div class="doc-icon">
+                            <i class="fas fa-file-archive"></i>
+                        </div>
+                        <div class="doc-info">
+                            <h3>Resource Pack: Punk Elements</h3>
+                            <p>ZIP • 156 MB</p>
+                            <p>Kumpulan texture, brush, dan asset grafis yang gue pakai.</p>
+                        </div>
+                        <a href="media/documents/punk-resources.zip" class="btn-doc" download>
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy;Patih Yang mAha Asik - Jangan Minta File Web nya tai bikin sendiri</p>
+            <p class="footer-note">Dibuat Tanpa Batasan Kreativitas <i class="fas fa-skull-crossbones"></i></p>
+        </div>
+    </footer>
+</body>
+</html>

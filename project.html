@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Punk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+        <source src="foto/ini 2.mp4" type="video/mp4">
+        Browser Lu Gembel.
+    </video>
+    
+    <!-- Grunge Overlay -->
+    <div class="grunge-overlay"></div>
+    
+    <!-- Sticker Decorations -->
+    <img src="foto/002.png" class="sticker" style="bottom: 50px; right: 10px;transform: scale(1.4);">
+    <img src="foto/001.png" class="sticker" style="bottom: 34px; left: 1px;transform: scale(1.8);">
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo logo-img">
+              <img src="foto/Logo.png" alt="Logo Portofolio">
+            </a>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="project.html">KARYA & PROJECT</a></li>
+                <li><a href="media.html">MEDIA</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <section class="section" id="karya">
+        <div class="container">
+
+            <h2 class="section-title">Projek</h2>
+            <p class="section-subtitle">
+                Projek 3D yang masih belajar
+            </p>
+
+            <div class="parts-grid">
+
+                <!-- Karya 1 -->
+                <div class="part-item">
+                    <div class="part-thumb">
+                        <img src="foto/Karya 2.jpg" alt="Karya 1">
+                    </div>
+                    <div class="part-text">
+                        <h3 class="part-title">Belajar Texture</h3>
+                        <div class="part-features">
+                            <p>
+                                Melihat Warna Kulit Yang cocok untuk pencahayaan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Karya 2 -->
+                <div class="part-item">
+                    <div class="part-thumb">
+                        <img src="foto/Karya 1.jpg" alt="Karya 2">
+                    </div>
+                    <div class="part-text">
+                        <h3 class="part-title">Membentuk Karakter</h3>
+                        <div class="part-features">
+                            <p>
+                                fokus ke tampilan visual, penampilan rapi,
+                                dan ngasih tulang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Karya 3 -->
+                <div class="part-item">
+                    <div class="part-thumb">
+                        <img src="foto/Karya 3.jpg" alt="Karya 3">
+                    </div>
+                    <div class="part-text">
+                        <h3 class="part-title">Hasil Yang sudah bisa digunakan </h3>
+                        <div class="part-features">
+                            <p>
+                               Model Yang sudah Jadi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Patih Yang Maha Asik</p>
+            <p class="footer-note">Project bukan soal sempurna, tapi konsisten.</p>
+        </div>
+    </footer>
+
+    <!-- Script Navbar Mobile -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
+
